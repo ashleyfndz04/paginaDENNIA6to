@@ -1,0 +1,241 @@
+body{
+   margin: 0;
+    padding:0;
+    
+}
+
+
+.contheader{ width: 80%;
+    display: flex; 
+    gap:30px;
+    justify-content: flex-end;
+   }
+
+
+.contenedoriconos{
+   display: flex;
+   align-items: center;
+   gap: 35px; 
+padding-right: 20px;
+}
+
+
+
+header { width: 100%; 
+   background-color: #2a5d01;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+  
+  }
+.pantalla{
+  padding-top: 10px;  
+}
+  
+
+.foto{
+ padding-left: 20px;
+}
+
+
+nav{width: 60%;}
+
+nav li {
+   text-decoration: underline 0.15em transparent;
+   text-underline-offset: 0.2em;
+   transition: text-decoration-color 300ms, text-underline-offset 300ms;
+   }
+   
+   nav li:hover {
+   text-decoration-color: #e6ffbc ;
+   text-underline-offset: 0.4em;
+   }
+
+ ul {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    
+    justify-content: space-around;
+    
+    font-size: 2.5220680958385877vh;
+    position: relative;
+    
+ }
+
+
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+ li{
+    list-style: none;
+   
+
+ }
+
+ .hola{
+  display: flex;
+  padding-right: 30%;
+  height: 400px;
+
+ }
+
+ .cards{
+   margin: 0%;
+   padding: 5%;
+   height: 450px;
+  width: 30%;
+  padding-left: 10%;
+
+      }
+
+
+       .card {
+         background-color: #fff;
+         border-radius: 10px;
+         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+         padding: 20px;
+         transition: transform 0.3s ease;
+         position: relative;
+         overflow: hidden;
+         height: 55%;
+       }
+       .card:hover {
+         transform: scale(1.05);
+       }
+
+       
+       .imgtraj{
+         width: 20%;
+         height: 20%;
+         
+       }
+
+       .card-text {
+         padding: 20px;
+         position: absolute;
+         bottom: 0;
+         left: 0;
+         right: 0;
+         background-color: rgba(37, 66, 0, 0.7);
+         color: #fff;
+         transform: translateY(100%);
+         transition: transform 0.3s ease;
+         font-size: 16px;
+       }
+
+       .botondif{
+      background-color: #eefcd6;
+      border-radius: 10px;
+        color: black;
+        padding-left: 8px;
+padding-top: 5px;
+       }
+
+       .card:hover .card-text {
+         transform: translateY(0);
+       }
+
+       h2 {
+         font-size: 24px;
+         margin-bottom: 10px;
+       }
+
+       p {
+         font-size: 16px;
+      
+       }
+     
+       .carrito{
+         text-decoration: none;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         border-radius: 10px;
+         color: #fff;
+         padding-top: 10px;
+       }
+
+
+.hola2{
+  display: flex;
+  padding-right: 30%;
+  height: 400px;
+background-color: rgb(251, 238, 222);
+}
+
+.hola3{
+  display: flex;
+  padding-right: 30%;
+  height: 400px;
+background-color: rgb(68, 151, 29);
+}
+
+.text2{
+  font-size: 10px;
+}
+
+.pie-pagina{
+  width: 100%;
+  background-color: #092800;
+}
+.pie-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:50px;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+  width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+  color: #efefef;
+  margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #faffd6;
+  text-align: center;
+  transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+  color: rgb(0, 136, 9);
+}
+.pie-pagina .grupo-2{
+  background-color: #faffd6;;
+  padding: 15px 10px;
+  text-align: center;
+  color: #000000;
+}
+.pie-pagina .grupo-2 small{
+  font-size: 15px;
+}
+@media screen and (max-width:800px){
+  .pie-pagina .grupo-1{
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap:30px;
+      padding: 35px 0px;
+  }
+}
+

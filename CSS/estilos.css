@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Cookie&family=Rochester&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.contheader {
+    width: 80%;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+}
+
+.contenedoriconos {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-right: 20px;
+}
+
+.icon2 {
+    display: none;
+}
+
+header {
+    width: 100%;
+    background-color: #0e2442;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../IMG/FOTOINICIO.jpg);
+    display: flex;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contenido {
+    z-index: 1;
+}
+
+.contenido h1 {
+    font-size: 0.4in;
+    font-family:Georgia, 'Times New Roman', Times, serifs;
+}
+
+.container::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(214, 234, 255, 0.801);
+}
+
+.contenedorC {
+  
+background-color: #263b00;
+
+}
+
+}
+.foto {
+    padding-right: 10px;
+    padding-left: 40px;
+}
+
+nav {
+    width: 60%;
+}
+
+nav li {
+    text-decoration: underline 0.15em transparent;
+    text-underline-offset: 0.2em;
+    transition: text-decoration-color 300ms, text-underline-offset 300ms;
+}
+
+nav li:hover {
+    text-decoration-color: #c0e2ff;
+    text-underline-offset: 0.4em;
+}
+
+ul {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.5220680958385877vh;
+    position: relative;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+li {
+    list-style: none;
+}
+
+.mi-boton {
+    background-color: #c0e2ff;
+    /* Color de fondo */
+    color: rgb(0, 0, 0);
+    /* Color del texto */
+    padding: 15px 32px;
+    /* Relleno (espacio dentro del botón) */
+    text-align: center;
+    /* Alineación del texto */
+    font-size: 16px;
+    /* Tamaño de fuente */
+    border: none;
+    /* Sin borde */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    cursor: pointer;
+    /* Cambia el cursor a una mano */
+    margin-top: 100px;
+}
+
+.mi-boton:hover {
+    background-color: #c0e2ff;
+    /* Color de fondo al pasar el ratón */
+}
+
+
+.titulo1 {
+    text-align: center;
+    font-family: Gabriella;
+    font-size: 50px;
+    background-color: #ffffff;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-shadow: 0px 5px 30px rgb(16, 91, 13);
+}
+
+@media screen and (max-width:1000px) {
+    .contheader {
+        display: none;
+    }
+    .contenedor {
+        display: none;
+    }
+    .cajas2 {
+        justify-content: space-between;
+        align-items: center;
+    }
+    .cartas {
+        margin-top: 10px;
+    }
+}
+
+
+.boton {
+    background-color: #2a34f4;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'Abel', sans-serif;
+}
+
+.boton:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px;
+    background-color: #304acd;
+    transition: background-color 1s ease;
+    color: black;
+}
+
+.foto1 {
+    margin-top: 10px;
+}
+
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    background-color: #00265e; /* Azul marino */
+    padding: 20px;
+    width: 98%;
+    height: 20%;
+}
+
+.carta {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 18%; /* Ajusta el ancho de las cartas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carta img {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho de la carta */
+    border-radius: 8px 8px 0 0;
+    height: 150px; /* Ajusta la altura de las imágenes */
+    object-fit: cover;
+}
+
+.carta h3 {
+    margin: 10px 0;
+}
+
+.carta p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #002244;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004488;
+}
+
+.cartas2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 15px;
+}
+
+.carta {
+    width: 80%;
+    border-radius: 5%;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0px 1px 10px #ffec60;
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.carta>img {
+    object-fit: contain;
+}
+
+.cuerpoboton {
+    padding-top: 5px;
+}
+
+.carta:hover {
+    box-shadow: 5px 5px 20px #263b00;
+    transform: translateY(-3%);
+}
+
+.carta img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    padding-top: 15px;
+}
+
+.carta .contenido {
+    padding: 3vh;
+}
+
+.carta .contenido a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #95dc4d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    text-align: center;
+    border: 0.5vh solid #809905;
+    border-radius: 1vh;
+    padding: 1vh;
+}
+
+.carta .contenido a:hover {
+    color: rgb(16, 52, 0);
+    background-color: #e6ffe0;
+    border-color: #fff373;
+    padding-top: 5px;
+}
+
+.pie-pagina {
+    width: 100%;
+    background-color: #0e2442;
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #c4dcff;
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+    color: rgb(0, 136, 9);
+}
+
+.pie-pagina .grupo-2 {
+    background-color: #c4dcff;
+    padding: 15px 10px;
+    text-align: center;
+    color: #000000;
+}
+
+.pie-pagina .grupo-2 small {
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo-1 {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
